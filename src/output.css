@@ -548,6 +548,25 @@ video {
   margin: 1rem;
 }
 
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
 .ml-2 {
   margin-left: 0.5rem;
 }
@@ -560,8 +579,8 @@ video {
   margin-top: 2rem;
 }
 
-.mb-4 {
-  margin-bottom: 1rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .flex {
@@ -596,12 +615,16 @@ video {
   justify-content: space-around;
 }
 
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-1 {
   gap: 0.25rem;
 }
 
-.gap-4 {
-  gap: 1rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .border-l-2 {
@@ -613,11 +636,6 @@ video {
   border-color: rgb(250 204 21 / var(--tw-border-opacity));
 }
 
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#13111c\] {
   --tw-bg-opacity: 1;
   background-color: rgb(19 17 28 / var(--tw-bg-opacity));
@@ -625,11 +643,6 @@ video {
 
 .pl-4 {
   padding-left: 1rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .text-2xl {
@@ -694,8 +707,8 @@ video {
   color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
-.underline {
-  text-decoration-line: underline;
+body {
+  font-family: "Jost Variable", sans-serif;
 }
 
 @media (min-width: 640px) {
@@ -707,6 +720,11 @@ video {
   .sm\:my-8 {
     margin-top: 2rem;
     margin-bottom: 2rem;
+  }
+
+  .sm\:my-4 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   .sm\:flex-row {

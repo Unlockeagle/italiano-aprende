@@ -3,6 +3,7 @@
     "tailwindcss": "^3.4.1"
   },
   "dependencies": {
-    "@fontsource-variable/jost": "^5.0.18"
+    "@fontsource-variable/jost": "^5.0.18",
+    "bootstrap-icons": "^1.11.3"
   }
 }

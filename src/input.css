@@ -1,9 +1,6 @@
-// Supports weights 100-900
-import "@fontsource-variable/jost";
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
-
-body {
+@font-face {
   font-family: "Jost Variable", sans-serif;
 }
+@tailwind utilities;

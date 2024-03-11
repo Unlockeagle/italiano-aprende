@@ -544,6 +544,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+@font-face {
+  font-family: "Jost Variable", sans-serif;
+}
+
 .m-4 {
   margin: 1rem;
 }
@@ -575,10 +579,6 @@ video {
 
 .flex {
   display: flex;
-}
-
-.hidden {
-  display: none;
 }
 
 .w-\[30\%\] {
@@ -615,6 +615,10 @@ video {
 
 .gap-6 {
   gap: 1.5rem;
+}
+
+.border-2 {
+  border-width: 2px;
 }
 
 .border-l-2 {
@@ -695,10 +699,6 @@ video {
 .text-yellow-400 {
   --tw-text-opacity: 1;
   color: rgb(250 204 21 / var(--tw-text-opacity));
-}
-
-body {
-  font-family: "Jost Variable", sans-serif;
 }
 
 @media (max-width: 640px) {

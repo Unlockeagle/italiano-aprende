@@ -3,7 +3,7 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily: "Jost Variable",
+      fontFamily: { "Jost Variable": ["Jost Variable"] },
     },
   },
   plugins: [],
